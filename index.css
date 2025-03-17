@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: timer;
+    src: url(CursedTimerUlil-Aznm.ttf)
+}
+
+body {
+    margin: 0;
+    background: #111827;
+}
+
+h2 {
+    color: #F9FAFB;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.scoreValContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border: none;
+    border-radius: 5px;
+}
+
+.scoreButtonsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addScoreBtn {
+    margin-top: 20px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #9AABD8;
+    border-radius: 3px;
+    font-family: timer;
+    background: none;
+    color: #9AABD8;
+}
+
+.scoreDisplay {
+    color: #E11D48;
+    font-family: timer;
+    font-size: 80px;
+    padding-top: 10px;
+}
